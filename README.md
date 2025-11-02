@@ -20,3 +20,13 @@ Les correccions s'han aplicat als següents arxius del sistema:
   → S'ha ajustat per garantir compatibilitat amb el nou `Menu.py`.
 
 Repositori mantingut per [Joan](https://github.com/siette).
+
+
+## Llicència
+
+Aquest projecte està sota la GNU General Public License, versió 2 o superior (GPLv2+).
+
+El fitxer `openbox-xdg-menu` manté la llicència GPLv2+ original de Red Hat.
+
+Pots consultar el text complet de la llicència al fitxer [LICENSE](./LICENSE).
+
