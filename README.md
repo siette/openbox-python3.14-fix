@@ -12,12 +12,15 @@ Les correccions s'han aplicat als següents arxius del sistema:
 - `Menu.py`  
   → Ubicació: `/usr/lib/python3.14/site-packages/xdg/Menu.py`  
   → Arxiu Python que genera el menú dinàmic.  
-  → S'ha corregit la sintaxi per adaptar-la a Python 3.14 i evitar errors d'AST.
+  → S'ha corregit la sintaxi per adaptar-la a Python 3.14, segons els requisits del llenguatge en aquesta versió.
+    El codi original funcionava correctament en versions anteriors, però Python 3.14 exigeix una escriptura diferent en alguns casos.
 
 - `openbox-xdg-menu`  
   → Ubicació: `/usr/libexec/openbox-xdg-menu`  
   → Script auxiliar que integra el menú dinàmic amb Openbox.  
   → S'ha ajustat per garantir compatibilitat amb el nou `Menu.py`.
+
+Pot funcionar amb altres versions 3.x, però no s'ha provat.
 
 Repositori mantingut per [Joan](https://github.com/siette).
 
